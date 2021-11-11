@@ -32,6 +32,8 @@
     color: white;
     display: flex;
     align-items: center;
+    z-index: 1;
+    padding: 10px;
 }
 
 #carrousel::after {
