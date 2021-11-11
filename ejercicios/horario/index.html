@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table {
+        width: 100%;
+    }
+    
+    table, tr, td, th {
+        border: 1px solid rgba(0,0,0, .2);
+        border-collapse: collapse;
+        text-align: center;
+        padding: 3px;
+    }
+    th {
+        background: dodgerblue;
+        color: white;
+        font-weight: 600;
+    }
+
+    .LLMM::after {
+        content: 'LLMM';
+    }
+
+    .PLAR::after {
+        content: 'PLAR';
+    }
+
+    .IMSO::after {
+        content: 'IMSO';
+    }
+
+    .BBDD::after {
+        content: 'BBDD';
+    }
+
+    .HW::after {
+        content: 'HW';
+    }
+
+    .FOL::after {
+        content: 'FOL';
+    }
+</style>
+<body>
+    <a href="../../">Volver</a>
+    <table>
+        <tr>
+            <th colspan="8">Horario</th>
+        </tr>
+        <tr>
+            <td>Horas</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+            <td>Sábado</td>
+            <td>Domingo</td>
+        </tr>
+        <!--
+
+
+            Horario
+
+
+
+        -->
+        <tr>
+            <td>8:15 - 9:15</td>
+            <td rowspan="2" class="LLMM"></td>
+            <td rowspan="2" class="PLAR"></td>
+            <td rowspan="2" class="IMSO"></td>
+            <td rowspan="2" class="LLMM"></td>
+            <td rowspan="2" class="BBDD"></td>
+            <td rowspan="7" colspan="2">Descanso</td>
+        </tr>
+        <tr>
+            <td>9:15 - 10:15</td>
+        </tr>
+        <tr>
+            <td>10:15 - 11:15</td>
+            <td class="BBDD"></td>
+            <td class="IMSO"></td>
+            <td class="BBDD"></td>
+            <td class="IMSO"></td>
+            <td class="PLAR"></td>
+        </tr>
+        <tr>
+            <td>11:15 - 11:45</td>
+            <td colspan="5" style="background: rebeccapurple; color: white;">Recreo</td>
+        </tr>
+        <tr>
+            <td>11:45 - 12:45</td>
+            <td class="BBDD"></td>
+            <td class="IMSO"></td>
+            <td class="BBDD"></td>
+            <td rowspan="2" class="IMSO"></td>
+            <td class="PLAR"></td>
+        </tr>
+        <tr>
+            <td>12:45 - 13:45</td>
+            <td rowspan="2" class="PLAR"></td>
+            <td rowspan="2" class="HW"></td>
+            <td rowspan="2" class="FOL"></td>
+            <td class="IMSO"></td>
+        </tr>
+        <tr>
+            <td>13:45 - 14:45</td>
+            <td class="HW"></td>
+            <td class="FOL"></td>
+        </tr>
+    </table>
+</body>
+</html>
