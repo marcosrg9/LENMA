@@ -20,29 +20,12 @@ a {
     color: inherit;
 }
 
-li {
-    list-style: none;
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
-    margin-left: -25px;
-    background: rgba(var(--textRGB), .05);
-    border-radius: 10px;
-    transition: ease-in-out all .15s;
+hr {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-color: var(--text);
 }
-
-li:hover {
-    background: rgba(var(--textRGB), .9);
-    color: var(--background);
-    transform: translateX(10px);
-}
-
-li:active {
-    transition: ease-in-out all .0s;
-    background: #0080FF;
-    color: white;
-}
-
 footer {
     position: fixed;
     bottom: calc(0% + 5px);
@@ -70,6 +53,7 @@ footer {
 .icon {
     font-family: 'Material Icons Outlined';
     color: inherit;
+    -webkit-font-smoothing: antialiased;
 }
 
 @media (prefers-color-scheme: dark) {

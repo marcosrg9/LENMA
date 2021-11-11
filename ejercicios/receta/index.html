@@ -8,16 +8,40 @@
     <link rel="stylesheet" href="../../icons.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <div class="carrousel ease-in" style="animation-duration: .6s;">
+<body onload="loadCarrousel()">
+    <div id="carrousel" class="ease-in" style="animation-duration: .6s;">
         <a href="../../"><span class="icon">chevron_left</span> <span style="color: white;">Volver</span></a>
         <h1>Tortilla de patatas</h1>
         <div id="recipe-data">
             <span style="display: flex; align-items: center;"><span class="icon" style="margin-right: 5px">schedule</span> 30 min</span>
             <span style="display: flex; align-items: center;"><span class="icon" style="margin-right: 5px">person</span> 4</span>
-            <span style="display: flex; align-items: center;"><span class="icon" style="margin-right: 5px">whatshot</span> Dificultad media</span>
+            <span style="display: flex; align-items: center;"><span class="icon" style="margin-right: 5px">whatshot</span> Dificultad baja</span>
         </div>
-        <img src="./img/index.jpeg">
+        <div id="carrousel2"></div>
     </div>
+    <div id="content">
+        <h2>Índice</h2>
+        <hr>
+        <ul id="ind">
+            <a href="#ingredientes"><li>Ingredientes</li></a>
+            <a><li>Preparación</li></a>
+        </ul>
+        <section id="ingredientes">
+            <h2>Ingredientes</h2>
+            <hr>
+            <ul>
+                <li>Patatas</li>
+                <li>Aceite</li>
+                <li>Sal</li>
+                <li>Huevos</li>
+            </ul>
+        </section>
+        <section id="preparación">
+            <h2>Preparación</h2>
+            <hr>
+            <p>----</p>
+        </section>
+    </div>
+    <script src="./carrousel.js"></script>
 </body>
 </html>
