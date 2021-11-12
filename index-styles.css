@@ -5,7 +5,7 @@ li {
     padding: 10px;
     width: 100%;
     margin-left: -25px;
-    background: rgba(var(--textRGB), .05);
+    background: rgba(var(--textRGB), .1);
     border-radius: 10px;
     transition: ease-in-out all .15s;
 }
@@ -19,5 +19,19 @@ li:hover {
 li:active {
     transition: ease-in-out all .0s;
     background: #0080FF;
+    transform: translateX(10px);
     color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: calc(0% + 5px);
+    background-color: rgba(var(--textRGB), .1);
+    border-top: 1px solid rgba(var(--textRGB), .2);
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin-left: -25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }

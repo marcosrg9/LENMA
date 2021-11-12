@@ -1,3 +1,7 @@
+<!--
+    Copyright (c) 2021 - Marcos Rodríguez Yélamo <marcosylrg@gmail.com>
+    Licencia GPLv3.
+-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,40 +12,53 @@
     <link rel="stylesheet" href="../../icons.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body onload="loadCarrousel()">
-    <div id="carrousel" class="ease-in" style="animation-duration: .6s;">
-        <a href="../../"><span class="icon">chevron_left</span> <span style="color: white;">Volver</span></a>
-        <h1>Tortilla de patatas</h1>
-        <div id="recipe-data">
-            <span style="display: flex; align-items: center;"><span class="icon" style="margin-right: 5px">schedule</span> 30 min</span>
-            <span style="display: flex; align-items: center;"><span class="icon" style="margin-right: 5px">person</span> 4</span>
-            <span style="display: flex; align-items: center;"><span class="icon" style="margin-right: 5px">whatshot</span> Dificultad baja</span>
+<body onload="loadCarousel()">
+    <div id="carousel" class="ease-in" style="animation-duration: .6s;">
+        <a href="../../"><span class="icon">chevron_left</span> <span>Volver</span></a>
+        <div id="info" class="to-right" style="animation-delay: .4s; opacity: 0;">
+            <div class="to-right" style="animation-delay: .4s; opacity: 0;">
+                <h1>Tortilla de patatas <sup><span style="font-weight: 200; font-size: 12pt;">(con cebolla)</span></sup></h1>
+            </div>
+            <div id="recipe-data" class="to-right" style="animation-delay: 1s; opacity: 0;">
+                <span><span class="icon" style="margin-right: 5px">schedule</span> 30 min</span>
+                <span><span class="icon" style="margin-right: 5px">person</span> 4</span>
+                <span><span class="icon" style="margin-right: 5px">whatshot</span> Dificultad baja</span>
+            </div>
         </div>
-        <div id="carrousel2"></div>
+        <div id="carousel2"></div>
     </div>
     <div id="content">
         <h2>Índice</h2>
         <hr>
         <ul id="ind">
             <a href="#ingredientes"><li>Ingredientes</li></a>
-            <a><li>Preparación</li></a>
+            <a href="#elaboracion"><li>elaboración</li></a>
         </ul>
         <section id="ingredientes">
             <h2>Ingredientes</h2>
             <hr>
             <ul>
                 <li>Patatas</li>
+                <li>Cebolla</li>
                 <li>Aceite</li>
                 <li>Sal</li>
                 <li>Huevos</li>
             </ul>
         </section>
-        <section id="preparación">
-            <h2>Preparación</h2>
+        <section id="elaboracion">
+            <h2>Elaboración</h2>
             <hr>
-            <p>----</p>
+            <p>
+                Para hacer una tortilla de patatas, pelamos las patatas, las lavamos y las cortamos en rodajas, ni muy finas ni muy gruesas. También cortamos la cebolla en daditos.<br><br>
+                Ponemos una sartén con abundante aceite de oliva virgen extra a calentar y una vez caliente volcamos las patatas y la cebolla, asegurándonos que quedan bien cubiertas por el aceite. Salamos y freímos a fuego suave unos 20 minutos, hasta que las patatas estén muy tiernas, Las podemos ir aplastando con el canto de una espumadera.<br><br>
+                Una vez hechas las patatas las escurrimos del aceite bien y volcamos en un recipiente hondo sobre los 5 huevos que habremos batido previamente salándolos también. Mezclamos bien.<br><br>
+                Ponemos una cucharadita de aceite de oliva en una sartén de tamaño medio y una vez caliente volcamos la mezcla de huevo y patatas sobre ella. Dejamos que cuaje el huevo, moviendo de vez en cuando la sartén para asegurarnos que no se queda pegada. Una vez cuajado el huevo le damos la vuelta poniendo un plato sobre la sartén y volcando la tortilla sobre él con un giro suave pero firme. Deslizamos de nuevo en la sartén y dejamos cuajar de nuevo por el otro lado.
+            </p>
         </section>
+        <footer>
+            <span class="dimmed">Fuente: <a target="blank" href="https://www.pequerecetas.com/receta/tortilla-de-patatas-con-cebolla/">Pequerecetas</a></span>
+        </footer>
     </div>
-    <script src="./carrousel.js"></script>
+    <script src="./carousel.js"></script>
 </body>
 </html>
