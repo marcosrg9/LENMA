@@ -10,7 +10,7 @@
 */
 const activityManager = () => {
 
-    fetch('/activities.json')
+    fetch('https://raw.githubusercontent.com/marcosrg9/LENMA/main/activities.json')
     .then(a => {
         a.json()
         .then(body => {
