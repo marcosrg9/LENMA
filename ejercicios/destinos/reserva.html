@@ -1,0 +1,64 @@
+<!--
+    Copyright (c) 2021 - Marcos Rodríguez Yélamo <marcosylrg@gmail.com>
+    Licencia GPLv3.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./reserva.css">
+    <title>Reserva</title>
+</head>
+<body>
+    <form class="ease-in" style="width: fit-content;">
+        <h1 style="margin: 5px;">Contacto</h1>
+        <div>
+            <label>Ciudad</label>
+            <select id="city">
+                <option value="Florencia">Florencia</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Mykonos">Mykonos</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Kioto">Kioto</option>
+                <option value="París">París</option>
+                <option value="Viena">Viena</option>
+                <option value="Berlín">Berlín</option>
+            </select>
+        </div>
+        <div>
+            <label>Datos de contacto</label>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellidos">
+            <input type="email" placeholder="Correo electrónico">
+            <input type="" placeholder="Teléfono">
+        </div>
+        <div>
+            <label for="adults_count">Número de adultos</label>
+            <input type="number" id="adults_count">
+        </div>
+        <div>
+            <label>Régimen de alojamiento</label>
+            <div>
+                <input type="radio" id="des" name="reg" value="Desayuno">
+                <label for="des">Desayuno</label>
+            </div>
+            <div>
+                <input type="radio" id="media" name="reg" value="Media pensión">
+                <label for="media">Media pensión</label>
+            </div>
+            <div>
+                <input type="radio" id="comp" name="reg" value="Pensión completa">
+                <label for="comp">Pensión completa</label>
+            </div>
+            <div>
+                <input type="radio" id="todo" name="reg" value="Todo incluido">
+                <label for="todo">Todo incluido</label>
+            </div>
+        </div>
+        <button>Volver</button>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

@@ -31,6 +31,19 @@ hr {
     border-bottom-color: var(--text);
 }
 
+select, input, button {
+    background: transparent;
+    color: var(--text);
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid var(--text);
+    outline: none;
+}
+
+input, button {
+    padding: 3px;
+}
+
 .dimmed {
     color: rgba(var(--textRGB), .4);
 }

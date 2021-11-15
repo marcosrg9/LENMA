@@ -6,11 +6,13 @@
 
 /**
  * El administrador de actividades inserta en el contenedor de actividades las tareas realizadas.
- * Recorre el array activities que contiene todas las tareas realizadas.
 */
 const activityManager = () => {
 
-    fetch('https://raw.githubusercontent.com/marcosrg9/LENMA/main/activities.json')
+    const url = (isLoopback()) ? './activityIndex.json'
+                               : 'https://raw.githubusercontent.com/marcosrg9/LENMA/main/activityIndex.json';
+
+    fetch(url)
     .then(a => {
         a.json()
         .then(body => {
@@ -41,6 +43,15 @@ const activityManager = () => {
             })
         })
     })
+}
+
+/**
+ * Comprueba si se trata de una dirección de loopback.
+ * */
+const isLoopback = () => {
+    const { hostname } = location;
+    if (hostname === '127.0.0.1' || hostname === 'localhost') return true;
+    return false;
 }
 
 // Carga el administrador de actividades cuando el body se ha cargado.
