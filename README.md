@@ -23,7 +23,7 @@ En estas tareas me he tomado la libertad de ser algo más creativo en cuanto a d
 ## 🦄 Detalles
 - El entorno usa la configuración de apariencia de tu sistema. Si usas un modo oscuro, las páginas se adaptarán automáticamente para mostrarte un modo oscuro más agradable. Puede establecer la regla ```prefers-color-scheme``` desde las herramientas de desarrollador de tu navegador. (Por favor, no uses IE 🤢)
 
-- Teóricamente, todas las páginas deben ser responsive hasta cierto límite. El ancho es relativo y se ha usado flexbox en muchos casos.
+- Teóricamente, todas las páginas deben ser responsive hasta cierto límite, teniendo en cuenta el tiempo y el hecho de que en ocasiones usamos tablas. Según la práctica, he usado medidas en porcentajes y dimensiones relativas al viewport, también se ha usado flexbox en muchos casos.
 
 ## ✍🏿 Atribución
 Este repositorio se distribuye bajo la licencia GPL3 (GNU Public License v3.0).<br>

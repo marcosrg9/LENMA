@@ -14,3 +14,7 @@ form > div {
     flex-direction: column;
     margin-bottom: 10px;
 }
+
+form > :nth-child(3) > input {
+    margin-top: 7px;
+}

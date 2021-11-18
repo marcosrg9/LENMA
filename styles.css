@@ -41,7 +41,12 @@ select, input, button {
 }
 
 input, button {
-    padding: 3px;
+    padding: 3px 10px;
+}
+
+input:focus {
+    background: var(--text);
+    color: var(--background);
 }
 
 .dimmed {
