@@ -1,0 +1,67 @@
+#carousel {
+    position: relative;
+}
+
+#carousel > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    position: absolute;
+    font-size: 100%;
+}
+
+.background > h1 {
+    position: absolute;
+    font-size: 400%;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.background > div {
+    width: 100%;
+    height: 100%;
+    /* mix-blend-mode: darken; */
+}
+
+.visible {
+    opacity: 1;
+}
+
+#Florencia {
+    background-image: url('./../destinos/assets/florencia.jpeg');
+}
+
+#Córdoba {
+    background-image: url('./../destinos/assets/cordoba.jpeg');
+}
+
+#Mykonos {
+    background-image: url('./../destinos/assets/mykonos.jpeg');
+}
+
+#Seattle {
+    background-image: url('./../destinos/assets/seattle.jpeg');
+}
+
+#Kioto {
+    background-image: url('./../destinos/assets/kioto.jpeg');
+}
+
+#París {
+    background-image: url('./../destinos/assets/paris.jpeg');
+}
+
+#Viena {
+    background-image: url('./../destinos/assets/viena.jpeg');
+}
+
+#Berlín {
+    background-image: url('./../destinos/assets/berlin.jpeg');
+}

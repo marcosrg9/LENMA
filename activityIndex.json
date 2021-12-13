@@ -2,5 +2,6 @@
     { "name": "Horario", "path": "./ejercicios/horario/" },
     { "name": "Receta", "path": "./ejercicios/receta/" },
     { "name": "Destinos", "path": "./ejercicios/destinos/" },
-    { "name": "Layout", "path": "./ejercicios/layout/" }
+    { "name": "Layout", "path": "./ejercicios/layout/" },
+    { "name": "Navbar", "path": "./ejercicios/navbar/" }
 ]
