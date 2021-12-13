@@ -47,7 +47,7 @@ footer {
 #rss > div {
     filter: invert(1);
     background-size: cover;
-    background-image: url(/src/rss_dark.png);
+    background-image: url(./src/rss_dark.png);
     padding: 6px;
 }
 
