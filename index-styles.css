@@ -7,7 +7,7 @@ li {
     margin-left: -25px;
     background: rgba(var(--textRGB), .1);
     border-radius: 10px;
-    transition: ease-in-out all .15s .04s;
+    transition: ease-in-out all .1s .06s;
 }
 
 li:hover {
@@ -35,4 +35,33 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+#rss {
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid transparent;
+    transition: ease .15s;
+}
+
+#rss > div {
+    filter: invert(1);
+    background-size: cover;
+    background-image: url(/src/rss_dark.png);
+    padding: 6px;
+}
+
+#rss:hover {
+    border-color: rgb(255, 157, 0);
+    background: rgb(255, 102, 0);
+}
+
+@media (prefers-color-scheme: light) {
+    #rss > div {
+        filter: invert(0);
+    }
+
+    #rss:hover > div{
+        filter: invert(1);
+    }
 }
