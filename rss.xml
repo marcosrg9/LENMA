@@ -11,9 +11,9 @@
             <description>Despliegue de la tarea recetas.</description>
         </item>
         <item>
-            <title>Item de relleno</title>
-            <link>https://www.xataka.com/</link>
-            <description>Se supone que hay que poner contenido, pero no hay ideas...</description>
+            <title>Actualización del RSS</title>
+            <link>https://angular.io/</link>
+            <description>Enlace a la documentación de Angular</description>
         </item>
     </channel>
 
