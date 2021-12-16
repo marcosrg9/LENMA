@@ -5,6 +5,7 @@
         <title>Canal RSS de Marcos</title>
         <link>https://marcosrg9.github.io/LENMA</link>
         <description>Canal de tareas.</description>
+            <enclosure url="https://marcosrg9.github.io/LENMA/ejercicios/destinos/assets/florencia.jpeg" length="12216320" type="image/jpeg"/>
         <item>
             <title>Tarea de recetas</title>
             <link>https://marcosrg9.github.io/LENMA/ejercicios/receta/</link>
