@@ -15,6 +15,21 @@
             <link>https://angular.io/</link>
             <description>Enlace a la documentación de Angular</description>
         </item>
+        <item>
+            <title>HTTP/2 - Introducción de Google</title>
+            <link>https://developers.google.com/web/fundamentals/performance/http2</link>
+            <description>Breve introducción al protocolo HTTP/2 por Google Developers.</description>
+        </item>
+        <item>
+            <title>Borrador del Protocolo WebSockets</title>
+            <link>https://datatracker.ietf.org/doc/html/rfc6455</link>
+            <description>Borrador del IETF del protocolo WebSockets</description>
+        </item>
+        <item>
+            <title>Blog Isomórfico</title>
+            <link>https://pablomagaz.com/blog</link>
+            <description>Blog de Pablo Magaz sobre desarrollo.</description>
+        </item>
     </channel>
 
 </rss>
