@@ -14,7 +14,6 @@
             <link>https://marcosrg9.github.io/LENMA/ejercicios/receta/</link>
             <description>Tarea de receta usando un poco de todo en HTML y CSS...</description>
         </item>
-        </item>
         <item>
             <title>Destinos de viajes</title>
             <link>https://marcosrg9.github.io/LENMA/ejercicios/destinos/</link>
@@ -23,10 +22,7 @@
         <item>
             <title>HTTP/2 - Introducción de Google</title>
             <link>https://developers.google.com/web/fundamentals/performance/http2</link>
-            <description>
-                <![CDATA[ <div><img src='https://developers.google.com/web/images/hero-2x_720.png' style='width: 100%;'>
-                <div>{Breve introducción al protocolo HTTP/2 por Google Developers.}</div></div> ]]>
-            </description>
+            <description>Breve introducción al protocolo HTTP/2 por Google Developers.</description>
         </item>
         <item>
             <title>Blog Isomórfico</title>
