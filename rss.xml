@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
 
     <channel>
         <title>Canal RSS de Marcos</title>
         <link>https://marcosrg9.github.io/LENMA</link>
         <description>Canal de tareas.</description>
         <item>
-            <title>Tarea de recetas</title>
-            <link>https://marcosrg9.github.io/LENMA/ejercicios/receta/</link>
-            <description>
-                <![CDATA[ <div><img src="https://marcosrg9.github.io/LENMA/ejercicios/receta/img/2.jpg" style="width: 100%;"><div>Despliegue de la tarea recetas.</div></div> ]]>
-            </description>
+            <title>Horario de clase</title>
+            <link>https://marcosrg9.github.io/LENMA/ejercicios/horario/</link>
+            <description>Tarea del horario de clase usando tablas.</description>
         </item>
         <item>
-            <title>Actualización del RSS</title>
-            <link>https://angular.io/</link>
-            <description>Enlace a la documentación de Angular</description>
+            <title>Tarea de recetas</title>
+            <link>https://marcosrg9.github.io/LENMA/ejercicios/receta/</link>
+            <description>Tarea de receta usando un poco de todo en HTML y CSS...</description>
+        </item>
+        </item>
+        <item>
+            <title>Destinos de viajes</title>
+            <link>https://marcosrg9.github.io/LENMA/ejercicios/destinos/</link>
+            <description>Tarea de destinos usando CSS Flexbox responsive y tablas en segunda página.</description>
         </item>
         <item>
             <title>HTTP/2 - Introducción de Google</title>
             <link>https://developers.google.com/web/fundamentals/performance/http2</link>
-            <description>Breve introducción al protocolo HTTP/2 por Google Developers.</description>
-        </item>
-        <item>
-            <title>Borrador del Protocolo WebSockets</title>
-            <link>https://datatracker.ietf.org/doc/html/rfc6455</link>
-            <description>Borrador del IETF del protocolo WebSockets</description>
+            <description>
+                <![CDATA[ <div><img src='https://developers.google.com/web/images/hero-2x_720.png' style='width: 100%;'>
+                <div>{Breve introducción al protocolo HTTP/2 por Google Developers.}</div></div> ]]>
+            </description>
         </item>
         <item>
             <title>Blog Isomórfico</title>
