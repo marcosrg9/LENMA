@@ -18,9 +18,9 @@ li:hover {
 
 li:active {
     transition: ease-in-out all .0s;
-    background: #0080FF;
+    background: var(--accent);
     transform: translateX(10px);
-    color: white;
+    color: var(--accent-fg);
 }
 
 footer {

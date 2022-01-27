@@ -49,7 +49,7 @@ const activityManager = () => {
  * Comprueba si se trata de una dirección de loopback.
  * */
 const isLoopback = () => {
-    const { hostname } = location;
+    const { hostname, protocol } = location;
     if (hostname === '127.0.0.1' || hostname === 'localhost') return true;
     return false;
 }

@@ -7,6 +7,8 @@
     --backgroundRGB: 255, 255, 255;
     --text: #000000;
     --textRGB: 0, 0, 0;
+    --accent: #0080FF;
+    --accent-fg: white;
 }
 
 * {
@@ -79,6 +81,12 @@ input:focus {
     font-family: 'Material Icons Outlined';
     color: inherit;
     -webkit-font-smoothing: antialiased;
+}
+
+.h-align {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 @media (prefers-color-scheme: dark) {

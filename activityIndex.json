@@ -3,5 +3,6 @@
     { "name": "Receta", "path": "./ejercicios/receta/" },
     { "name": "Destinos", "path": "./ejercicios/destinos/" },
     { "name": "Layout", "path": "./ejercicios/layout/" },
-    { "name": "Navbar", "path": "./ejercicios/navbar/" }
+    { "name": "Navbar", "path": "./ejercicios/navbar/" },
+    { "name": "XML", "path": "./ejercicios/xml/" }
 ]
