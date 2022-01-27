@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="consolas">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="consola" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="plataforma" type="xsd:string"/>
+                            <xsd:element name="version" type="xsd:string"/>
+
+                            <xsd:element name="juegos">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                    
+                                    <xsd:element name="accion">
+                                        <xsd:complexType>
+                                            <xsd:sequence>
+                                                <xsd:element name="nombre" maxOccurs="unbounded"/>
+                                            </xsd:sequence>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                    
+                                    <xsd:element name="rol">
+                                        <xsd:complexType>
+                                            <xsd:sequence>
+                                                <xsd:element name="nombre" maxOccurs="unbounded"/>
+                                            </xsd:sequence>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                    
+                                    <xsd:element name="arcade">
+                                        <xsd:complexType>
+                                            <xsd:sequence>
+                                                <xsd:element name="nombre" maxOccurs="unbounded"/>
+                                            </xsd:sequence>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                    
+
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+
+                            <xsd:element name="fecLanzamiento" type="xsd:date"/>
+
+                            <xsd:element name="exito">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+
+                                        <xsd:element name="ventas" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+
+                                                    <xsd:element name="numero" type="xsd:integer"/>
+                                                    <xsd:element name="mes" type="xsd:string"/>
+                                                    <xsd:element name="anyo" type="xsd:integer"/>
+            
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

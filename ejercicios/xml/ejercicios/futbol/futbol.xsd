@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    
+    <xsd:element name="futbol">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="equipos">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="equipo">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="nombre" type="xsd:string"/>
+                                        <xsd:element name="copas" type="xsd:integer"/>
+                                        
+                                        <xsd:element name="jugadores">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="pichichi">
+
+                                                        <xsd:complexType>
+                                                            <xsd:sequence>
+                                                                <xsd:element name="nombre" type="xsd:string"/>
+                                                                <xsd:element name="fechaNacimiento" type="xsd:date"/>
+                                                                <xsd:element name="goles" type="xsd:integer"/>
+                                                                <xsd:element name="tarjetas">
+                                                                    <xsd:complexType>
+                                                                        <xsd:sequence>
+                                                                            <xsd:element name="amarillas" type="xsd:integer"/>
+                                                                            <xsd:element name="rojas" type="xsd:integer"/>
+                                                                        </xsd:sequence>
+                                                                    </xsd:complexType>
+                                                                </xsd:element>
+                                                            </xsd:sequence>
+                                                        </xsd:complexType>
+
+                                                    </xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+
+                                        <xsd:element name="equipacion">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="primera" type="xsd:string"/>
+                                                    <xsd:element name="segunda" type="xsd:string"/>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        
+                                        <xsd:element name="partidos">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="jugados">
+                                                        <xsd:complexType>
+                                                            <xsd:sequence>
+                                                                <xsd:element name="ganados" type="xsd:integer"/>
+                                                                <xsd:element name="perdidos" type="xsd:integer"/>
+                                                                <xsd:element name="empatados" type="xsd:integer"/>
+                                                            </xsd:sequence>
+                                                        </xsd:complexType>
+                                                    </xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>    
+                                        </xsd:element>
+                                        
+                                        <xsd:element name="partidos">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="nombre" type="xsd:string"/>
+                                                    <xsd:element name="capacidad" type="xsd:integer"/>
+                                                </xsd:sequence>
+                                            </xsd:complexType>    
+                                        </xsd:element>
+
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

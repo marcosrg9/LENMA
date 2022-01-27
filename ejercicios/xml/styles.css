@@ -1,0 +1,68 @@
+nav > div {
+    background: rgba(var(--textRGB), .02);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav > div:first-child {
+    margin-top: 0px;
+}
+
+nav > div > h4 {
+    margin-top: 0;
+}
+
+nav > div > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav > div > div > a {
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    background: rgba(var(--textRGB), .1);
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+nav > div > div > a:first-child {
+    margin-left: 0px;
+}
+
+nav > div > div > a:hover {
+    background: rgba(var(--textRGB), .9);
+    color: var(--background);
+}
+
+nav > div > div > a:active {
+    transition: ease-in-out all .0s;
+    background: var(--accent);
+    color: var(--accent-fg);
+}
+
+@media (max-width: 425px) {
+    nav > div > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav > div > div > a {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav > div > div > a:first-child {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}

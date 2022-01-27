@@ -1,0 +1,4 @@
+[
+    { "name": "Fútbol", "path": "./ejercicios/futbol", "xml": false, "xsd": true },
+    { "name": "Consolas", "path": "./ejercicios/consolas", "xml": true, "xsd": true }
+]

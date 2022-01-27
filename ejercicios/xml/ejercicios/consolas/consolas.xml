@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="file:///Users/marcos/Desktop/Ejercicio%20validación%20consolas.xsd">
+
+    <!-- PS4 -->
+    <consola>
+        <plataforma>PS</plataforma>
+        <version>4</version>
+
+        <juegos>
+            <accion>
+                <nombre>??</nombre>
+            </accion>
+            <rol>
+                <nombre>??</nombre>
+            </rol>
+            <arcade>
+                <nombre>??</nombre>
+            </arcade>
+        </juegos>
+
+        <fecLanzamiento>2020-10-10</fecLanzamiento>
+
+        <exito>
+            <ventas>
+                <numero>300</numero>
+                <mes>ENERO</mes>
+                <anyo>2022</anyo>
+            </ventas>
+            <ventas>
+                <numero>100</numero>
+                <mes>FEBRERO</mes>
+                <anyo>2022</anyo>
+            </ventas>
+        </exito>
+    </consola>
+
+    <!-- PS5 -->
+    <consola>
+        <plataforma>PS</plataforma>
+        <version>5</version>
+
+        <juegos>
+            <accion>
+                <nombre>??</nombre>
+            </accion>
+            <rol>
+                <nombre>??</nombre>
+            </rol>
+            <arcade>
+                <nombre>??</nombre>
+            </arcade>
+        </juegos>
+
+        <fecLanzamiento>2021-10-10</fecLanzamiento>
+
+        <exito>
+            <ventas>
+                <numero>600</numero>
+                <mes>ENERO</mes>
+                <anyo>2022</anyo>
+            </ventas>
+            <ventas>
+                <numero>300</numero>
+                <mes>FEBRERO</mes>
+                <anyo>2022</anyo>
+            </ventas>
+        </exito>
+    </consola>
+
+    <!-- XBOX -->
+    <consola>
+        <plataforma>XBOX</plataforma>
+        <version>2020</version>
+
+        <juegos>
+            <accion>
+                <nombre>??</nombre>
+            </accion>
+            <rol>
+                <nombre>??</nombre>
+            </rol>
+            <arcade>
+                <nombre>??</nombre>
+            </arcade>
+        </juegos>
+
+        <fecLanzamiento>2019-10-10</fecLanzamiento>
+
+        <exito>
+            <ventas>
+                <numero>1000</numero>
+                <mes>ENERO</mes>
+                <anyo>2022</anyo>
+            </ventas>
+            <ventas>
+                <numero>800</numero>
+                <mes>FEBRERO</mes>
+                <anyo>2022</anyo>
+            </ventas>
+        </exito>
+    </consola>
+</consolas>
