@@ -1,4 +1,5 @@
 [
     { "name": "Fútbol", "path": "./ejercicios/futbol", "xml": false, "xsd": true },
-    { "name": "Consolas", "path": "./ejercicios/consolas", "xml": true, "xsd": true }
+    { "name": "Consolas", "path": "./ejercicios/consolas", "xml": true, "xsd": true },
+    { "name": "Fichas", "path": "./ejercicios/fichas", "xml": true, "xsd": true }
 ]
