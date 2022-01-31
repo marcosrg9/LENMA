@@ -17,7 +17,7 @@
                                     <xsd:element name="accion">
                                         <xsd:complexType>
                                             <xsd:sequence>
-                                                <xsd:element name="nombre" maxOccurs="unbounded"/>
+                                                <xsd:element name="nombre" type="xsd:string" maxOccurs="unbounded"/>
                                             </xsd:sequence>
                                         </xsd:complexType>
                                     </xsd:element>
@@ -25,7 +25,7 @@
                                     <xsd:element name="rol">
                                         <xsd:complexType>
                                             <xsd:sequence>
-                                                <xsd:element name="nombre" maxOccurs="unbounded"/>
+                                                <xsd:element name="nombre" type="xsd:string" maxOccurs="unbounded"/>
                                             </xsd:sequence>
                                         </xsd:complexType>
                                     </xsd:element>
@@ -33,7 +33,7 @@
                                     <xsd:element name="arcade">
                                         <xsd:complexType>
                                             <xsd:sequence>
-                                                <xsd:element name="nombre" maxOccurs="unbounded"/>
+                                                <xsd:element name="nombre" type="xsd:string" maxOccurs="unbounded"/>
                                             </xsd:sequence>
                                         </xsd:complexType>
                                     </xsd:element>

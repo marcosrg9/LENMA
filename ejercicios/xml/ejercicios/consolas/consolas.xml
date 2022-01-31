@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:noNamespaceSchemaLocation="file:///Users/marcos/Desktop/Ejercicio%20validación%20consolas.xsd">
+          xsi:noNamespaceSchemaLocation="file:///Users/marcos/Desktop/LENMA/ejercicios/xml/ejercicios/consolas/consolas.xsd">
 
     <!-- PS4 -->
     <consola>
