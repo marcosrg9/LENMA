@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<regex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="file:///Users/marcos/Development/LENMA/ejercicios/xml/ejercicios/regex/regex.xsd">
+
+    <numero>+34677121212</numero>
+    <password>alf4numb</password>
+    <dni>30101010A</dni>
+    <frase>madre mía</frase>
+    <palabra>v!@gr@</palabra>
+
+</regex>
