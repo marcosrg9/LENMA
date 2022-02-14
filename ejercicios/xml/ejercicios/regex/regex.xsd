@@ -67,6 +67,37 @@
                     </xs:simpleType>
                  </xs:element>
 
+
+                <!-- 
+                    <femenino>f,F,Mujer,H</femenino>
+                    <masculino>m,M,Hombre,M</masculino>
+                -->
+                <xs:element name="sexo">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="femenino">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="(f|F|Mujer|M)*"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            
+                            <xs:element name="masculino">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <!-- (F|f|foo|Foo){*} <- Indica el número de ocurrencias admitidas entre paréntesis. -->
+                                        <xs:pattern value="(m|M|Hombre|H){0,1}"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                        </xs:sequence>
+                        <xs:attribute name="id"/>
+                    </xs:complexType>
+                </xs:element>
+
             </xs:sequence>
         </xs:complexType>
     </xs:element>
