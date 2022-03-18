@@ -1,0 +1,23 @@
+<!-- (FOO+) = Mínimo debe aparecer 1 vez -->
+<!-- Puede ir dentro o fuera (símbolo) -->
+<!ELEMENT NEWSPAPER (ARTICLE+)>
+<!-- ()* = Elemento opcional -->
+<!ELEMENT ARTICLE (HEADLINE, (BYLINE*), LEAD, BODY, NOTES)>
+<!ELEMENT HEADLINE (#PCDATA)>
+<!ELEMENT LEAD (#PCDATA)>
+<!ELEMENT BODY (#PCDATA)>
+<!ELEMENT NOTES (#PCDATA)>
+
+<!-- 
+    - Required -> requerido.
+    - Implied  -> opcional.
+    - fixed    -> valor fijo.
+ -->
+<!ATTLIST ARTICLE AUTHOR CDATA #REQUIRED>
+<!ATTLIST ARTICLE EDITOR CDATA #IMPLIED>
+<!ATTLIST ARTICLE DATE CDATA #IMPLIED>
+<!ATTLIST ARTICLE EDITION CDATA #IMPLIED>
+
+<!ENTITY NEWSPAPER "Vervet Logic Times">
+<!ENTITY PUBLISHER "Vervet Logic Press">
+<!ENTITY COPYRIGHT "Copyright 1998 Vervet Logic Press">

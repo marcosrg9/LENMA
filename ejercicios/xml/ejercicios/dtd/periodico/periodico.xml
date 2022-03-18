@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE NEWSPAPER SYSTEM "./periodico.dtd">
+
+<NEWSPAPER>
+
+    <ARTICLE AUTHOR="-">
+        <HEADLINE>-</HEADLINE>
+        <LEAD>-</LEAD>
+        <BODY>-</BODY>
+        <NOTES>-</NOTES>
+    </ARTICLE>
+    
+    <ARTICLE AUTHOR="-">
+        <HEADLINE>-</HEADLINE>
+        <LEAD>-</LEAD>
+        <BODY>-</BODY>
+        <NOTES>&NEWSPAPER;</NOTES>
+    </ARTICLE>
+
+</NEWSPAPER>

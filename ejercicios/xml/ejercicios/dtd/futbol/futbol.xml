@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol SYSTEM "file:///C:/Users/Usuario/Desktop/futbol.dtd">
+<futbol>
+    <equipos>
+        <equipo>
+            <nombreEquipo></nombreEquipo>
+            <copas></copas>
+            <jugadores>
+                <pichichi>
+                    <nombre></nombre>
+                    <fechaNacimiento></fechaNacimiento>
+                    <goles></goles>
+                    <tarjetas>
+                        <amarillas></amarillas>
+                        <rojas></rojas>
+                    </tarjetas>
+                </pichichi>
+            </jugadores>
+            <equipacion>
+                <primera></primera>
+                <segunda></segunda>
+            </equipacion>
+            <jugados>
+                <ganados></ganados>
+                <perdidos></perdidos>
+                <empatados></empatados>
+            </jugados>
+            <estadio>
+                <nombreEstadio></nombreEstadio>
+                <capacidad></capacidad>
+            </estadio>
+        </equipo>
+    </equipos>
+</futbol>

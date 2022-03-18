@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "file:///C:/Users/Usuario/Desktop/note.dtd">
+<note>
+    <to>user</to>
+    <from>
+        <email>marcosylrg@gmail.com</email>
+        <nombre>Marcos</nombre>
+    </from>
+    <heading>subj</heading>
+    <body>
+        <mensaje>---</mensaje>
+        <fecha>
+            <dia>03</dia>
+            <mes>02</mes>
+            <anno>2022</anno>
+        </fecha>
+    </body>
+</note>

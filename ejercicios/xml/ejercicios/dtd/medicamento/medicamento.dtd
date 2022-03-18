@@ -1,0 +1,25 @@
+<!ELEMENT vademecum (medicamento+)>
+    <!ELEMENT medicamento (nombre, administracion, dosis)>
+        <!ELEMENT nombre (generico, comercial+)>
+            <!ELEMENT generico (#PCDATA)>
+            <!ELEMENT comercial (#PCDATA)>
+            <!--
+                Contenido de administración debe ser 18h | 24h
+                En DTD no se puede restringir el tipo #PCDATA
+            -->
+            <!ELEMENT administracion (#PCDATA)>
+
+            <!--
+                Contenido de dosis debe ser *mg
+                Tampoco se puede controlar la entrada del usuario.
+            -->
+        <!ELEMENT dosis (#PCDATA)>
+
+<!--
+    id="1"
+    Se sobreentiende que un id debería ser numérico.
+    No se puede establecer restricciones, por lo tanto habrá que sanear
+    la entrada del usuario.
+-->
+<!ATTLIST nombre id CDATA #REQUIRED>
+<!ATTLIST administracion tipo (Intramuscular | Oral) #REQUIRED>

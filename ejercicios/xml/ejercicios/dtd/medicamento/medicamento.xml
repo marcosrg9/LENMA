@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE vademecum SYSTEM "./medicamento.dtd">
+
+<vademecum>
+
+    <medicamento>
+        <nombre id="1"> 
+            <generico></generico>
+            <comercial>Almirall S.A</comercial>
+        </nombre>
+    
+        <administracion tipo="Oral"></administracion>
+    
+        <dosis></dosis>
+    
+    </medicamento>
+
+    <medicamento>
+        <nombre id="2">
+            <generico></generico>
+            <comercial></comercial>
+            <comercial></comercial>
+        </nombre>
+    
+        <administracion tipo="Oral"></administracion>
+    
+        <dosis></dosis>
+    
+    </medicamento>
+
+</vademecum>

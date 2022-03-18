@@ -1,6 +1,14 @@
 [
-    { "name": "Fútbol", "path": "./ejercicios/futbol", "xml": false, "xsd": true },
-    { "name": "Consolas", "path": "./ejercicios/consolas", "xml": true, "xsd": true },
-    { "name": "Fichas", "path": "./ejercicios/fichas", "xml": true, "xsd": true },
-    { "name": "Regex", "path": "./ejercicios/regex", "xml": true, "xsd": true }
+    [
+        { "name": "Fútbol", "path": "/futbol", "xml": false, "task": true },
+        { "name": "Consolas", "path": "/consolas", "xml": true, "task": true },
+        { "name": "Fichas", "path": "/fichas", "xml": true, "task": true },
+        { "name": "Regex", "path": "/regex", "xml": true, "task": true }
+    ],
+    [
+        { "name": "Mail", "path": "/mail", "xml": true , "task": true },
+        { "name": "Fútbol", "path": "/futbol", "xml": true , "task": true },
+        { "name": "Periodico", "path": "/periodico", "xml": true , "task": true },
+        { "name": "Medicamento", "path": "/medicamento", "xml": true , "task": true }
+    ]
 ]
